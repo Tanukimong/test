@@ -11,6 +11,8 @@ xlabel('n'); ylabel('h[n]'); grid on;
 disp('Sum of h[n] is');
 disp(abs(sum(h)));
 
+%% Make err
+
 disp('If num of n = 10000,');
 [d,nd]=impseq(0,0,10000);
 h = filter([1 2 1],[1 -0.5 0.25],d);
