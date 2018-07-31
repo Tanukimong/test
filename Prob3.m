@@ -1,3 +1,4 @@
+%%%% Heyy!!!!
 %%Prob3.1
 %Generate impulse function
 [d,nd]=impseq(0,0,100);
