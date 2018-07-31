@@ -1,4 +1,4 @@
-%%%Heyyyyy UUUUUU
+%%%Naaaaahhhhhhhhhh
 %%Prob3.1
 %Generate impulse function
 [d,nd]=impseq(0,0,100);
@@ -11,7 +11,7 @@ xlabel('n'); ylabel('h[n]'); grid on;
 %%Prob3.2
 disp('Sum of h[n] is');
 disp(abs(sum(h)));
-
+%% Super beacer!!
 %% Make err
 
 disp('If num of n = 10000,');
