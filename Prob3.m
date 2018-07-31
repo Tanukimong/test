@@ -26,7 +26,7 @@ disp('So, this system is stable')
 n3 = 0:200; 
 x3 = 5+3*cos(0.2*pi*n3)+4*sin(0.6*pi*n3); %Generate x[n]
 y3 = filter([1 2 1],[1 -0.5 0.25],x3); %Output for given DE
-
+%%%% Make err222
 %Display Plot
 figure(2);
 plot(n3,y3);xlim([0,200]);;title('Prob 3 : Output of given signal');
